@@ -1,12 +1,33 @@
+/* Plano de fundo */
+
 body {
-    background-color: powderblue;
+    background-color: RGBA(189, 195, 223, 0.5);
 }
+
+/* Títulos */
 
 h1 {
     color: blue;
     text-align: center;
 }
 
+
+/* Parágrafos */
 p {
     color: red;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+p.infos{
+    color: brown;
+    visibility: hidden;
+}
+
+/* Links */
+a {
+    border: 2px solid;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
 }
