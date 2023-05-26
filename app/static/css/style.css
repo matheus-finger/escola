@@ -31,3 +31,16 @@ a {
     padding: 20px;
     margin: 20px;
 }
+
+/* Tabelas */
+
+th, td {
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 15px / 50px;
+}
+
+th, td {
+    background-color: lightgreen;
+}
